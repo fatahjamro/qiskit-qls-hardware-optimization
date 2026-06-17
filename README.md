@@ -6,6 +6,7 @@
 [![Qiskit](https://img.shields.io/badge/Qiskit-1.0%2B-6929C4?logo=qiskit)](https://qiskit.org/)
 [![IBM Quantum](https://img.shields.io/badge/IBM%20Quantum-Heron-052FAD?logo=ibm)](https://www.ibm.com/quantum)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 [![DOI](https://zenodo.org/badge/1271867286.svg)](https://doi.org/10.5281/zenodo.20728901)
 
 This repository contains the benchmarking suite, experimental QPU data, and analysis code for our study evaluating the spatial noise symmetries and compiler routing overhead of a $4 \times 4$ Bell-state Quantum Latin Square (QLS) on physical quantum processors.
