@@ -1,0 +1,9 @@
+qiskit>=1.0
+qiskit-ibm-runtime
+numpy
+pandas
+scikit-learn
+matplotlib
+jupyter
+ipykernel
+pytest

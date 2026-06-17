@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# macOS
+.DS_Store
+
+# Exclude LaTeX manuscript from Git (IEEE copyright restrictions)
+manuscript/
+
+# Pytest & Cache
+.pytest_cache/
+
+# Data backups
+*.backup
