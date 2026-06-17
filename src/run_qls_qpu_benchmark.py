@@ -261,7 +261,7 @@ def run_experiment(backend_name, is_simulator=False, is_pilot=True, max_records=
     
     # Set up Backend / Mock Backend properties
     if is_simulator:
-        print("Setting up local simulator mode with mock ibm_kingston calibration data...")
+        print("Setting up local simulator mode with mock ibm_fez calibration data...")
         # Create a mock class mimicking a backend to use identical code paths
         class MockBackend:
             class Target:
@@ -542,7 +542,7 @@ def run_experiment(backend_name, is_simulator=False, is_pilot=True, max_records=
 def main():
     parser = argparse.ArgumentParser(description="QLS QPU Benchmarking Pipeline with ML Feature Collection")
     parser.add_argument("--simulator", action="store_true", help="Run in local simulator mode")
-    parser.add_argument("--backend", type=str, default="ibm_kingston", help="Name of the IBM QPU backend to run on")
+    parser.add_argument("--backend", type=str, default="ibm_fez", help="Name of the IBM QPU backend to run on")
     parser.add_argument("--pilot", action="store_true", default=True, help="Run pilot configuration (default: True)")
     parser.add_argument("--full", action="store_true", help="Run full configuration (10 adj, 5 routed)")
     parser.add_argument("--max-records", type=int, default=None, help="Limit maximum number of configurations to run")

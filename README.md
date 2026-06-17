@@ -19,7 +19,7 @@ Our experiment compares:
 
 ## Experimental Results
 
-The benchmarking suite was executed on the 156-qubit Heron backend **`ibm_kingston`** with $N_{\text{shots}} = 4000$. The key Total Variation Distance (TVD) results are summarized below:
+The benchmarking suite was executed on the 156-qubit Heron backend **`ibm_fez`** with $N_{\text{shots}} = 4000$. The key Total Variation Distance (TVD) results are summarized below:
 
 | Configuration | Avg Cell TVD | Avg Twin TVD | Avg Ctrl TVD |
 | :--- | :---: | :---: | :---: |
